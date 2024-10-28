@@ -1,0 +1,27 @@
+ContentManagementSystem/
+│
+├── ContentManagementSystem.sln         # Arquivo de solução do projeto
+│
+├── Program.cs                           # Arquivo principal para execução do CMS
+│
+├── Models/                              # Pasta para modelos de dados
+│   ├── Post.cs                          # Classe para representar um post
+│   ├── Category.cs                      # Classe para representar uma categoria
+│   └── Tag.cs                           # Classe para representar uma tag
+│
+├── Services/                            # Pasta para classes de serviço
+│   ├── PostService.cs                   # Serviço para gerenciar posts
+│   ├── CategoryService.cs               # Serviço para gerenciar categorias
+│   └── TagService.cs                    # Serviço para gerenciar tags
+│
+├── Controllers/                         # Pasta para classes de controle
+│   ├── PostController.cs                # Controlador para gerenciar posts
+│   └── CategoryController.cs            # Controlador para gerenciar categorias
+│
+├── Views/                               # Pasta para arquivos de visualização
+│   ├── PostView.cs                      # Interface de visualização de posts
+│   └── CategoryView.cs                  # Interface de visualização de categorias
+│
+└── Utils/                               # Pasta para utilitários
+    ├── HtmlHelper.cs                    # Classe auxiliar para manipulação de HTML
+    └── LoggerService.cs                 # Classe para registro de logs
